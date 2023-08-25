@@ -96,7 +96,7 @@ In this method, 4 randomly selected images from the train set are combined into 
 
 ## Optimizer and Scheduler
 One cycle policy has been used to find the optimum learning rate. Here is the plot. Suggested learning rate is ```6.75E-02```
-~[image](images/learning%20rate.png)
+![lr](images/learning%20rate.png)
 ```
 scheduler = OneCycleLR(
     optimizer,
